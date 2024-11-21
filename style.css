@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8B5DFF;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+header {
+   
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    background: linear-gradient(to right,#fff,#FF8000);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+
+
+header p{
+    font-size: 1rem;
+    color: #D4F6FF;
+    font-weight: 600;
+}
+
+h2 {
+    border-bottom: 2px solid #FF8000;
+    padding-bottom: 0.5rem;
+    color: #fff;
+}
+
+.project {
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #FFEB55;
+}
+
+a {
+    color:#000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
